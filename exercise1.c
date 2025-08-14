@@ -2,6 +2,10 @@
 
 int main()
 {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 362a1c0d2a3dae28e20856e90156f92fa065ffb2
     int a;
     printf("enter the number");
     scanf("%d", &a);

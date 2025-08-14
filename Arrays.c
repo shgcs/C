@@ -2,6 +2,10 @@
 
 int main()
 {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 362a1c0d2a3dae28e20856e90156f92fa065ffb2
     // int marks[]={45,234,2,3}; //1d/single arrays/*
     // int marks[4];
     int marks[2][4] = {{45, 234, 2, 3}, {3, 2, 3, 3}}; // 2d/multidimensional  arrays

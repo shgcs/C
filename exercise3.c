@@ -30,10 +30,18 @@ int main()
     int n = 6;
     for (int i = 1; i <= n; i++)
     {
+<<<<<<< HEAD
         a = b - a;
         b = a + b;
         printf("%d ", a);
     }
 
+=======
+        a = b-a;
+        b = a + b;
+        printf("%d ", a);
+    }
+ 
+>>>>>>> 362a1c0d2a3dae28e20856e90156f92fa065ffb2
     return 0;
 }

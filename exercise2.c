@@ -2,12 +2,23 @@
 
 int main()
 {
+<<<<<<< HEAD
     char n;
     printf(" enter the number : \n 1 for inches to foot \n 2 for cms to inches \n 3 for pound to kgs \n 4 for kms to miles \n 5 for inches to meters \n'q' for quit \n \a");
     scanf(" %c", &n);
     
     while (n != 'q')
     {
+=======
+    int j = 5;
+    char n;
+    for (int i = 0; i <= j; i++)
+    {
+
+        printf(" enter the number : \n 1 for inches to foot \n 2 for cms to inches \n 3 for pound to kgs \n 4 for kms to miles \n 5 for inches to meters \n'q' for quit \n \a");
+        scanf(" %c", &n);
+
+>>>>>>> 362a1c0d2a3dae28e20856e90156f92fa065ffb2
         if (n == '1')
         {
             float inches;
@@ -58,8 +69,15 @@ int main()
             printf("%f inches = %f meters \n", inches, total);
         }
 
+<<<<<<< HEAD
         printf(" enter the number : \n 1 for inches to foot \n 2 for cms to inches \n 3 for pound to kgs \n 4 for kms to miles \n 5 for inches to meters \n'q' for quit \n \a");
         scanf(" %c", &n);
+=======
+        else if (n == 'q')
+        {
+            j = 0;
+        }
+>>>>>>> 362a1c0d2a3dae28e20856e90156f92fa065ffb2
     }
     return 0;
 }

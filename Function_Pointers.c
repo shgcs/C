@@ -6,6 +6,10 @@ int sum(int a, int b)
 }
 int main()
 {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 362a1c0d2a3dae28e20856e90156f92fa065ffb2
     printf("sum of a and b : %d\n", sum(1, 2));
     int (*fptr)(int, int); // declaring function pointer
     fptr = &sum;           // creating function pointer
